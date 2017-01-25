@@ -75,9 +75,10 @@ public class RootLayoutController {
     }
 
     /**
-     * Saves the file to the person file that is currently open. If there is no
+     * Saves the file to the basket file that is currently open. If there is no
      * open file, the "save as" dialog is shown.
      */
+
     @FXML
     private void handleSave() {
         File itemFile = mainApp.getItemFilePath();
