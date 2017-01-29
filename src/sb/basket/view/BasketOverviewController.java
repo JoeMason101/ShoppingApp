@@ -100,7 +100,7 @@ public class BasketOverviewController implements Initializable {
 	 * Initializes the controller class. This method is automatically called
 	 * after the fxml file has been loaded.
 	 */
-/*	@FXML
+	@FXML
 	private void initialize() {
 		// Initialize the person table with the two columns.
 		nameColumn.setCellValueFactory(cellData -> cellData.getValue()
@@ -120,7 +120,7 @@ public class BasketOverviewController implements Initializable {
 				.addListener(
 						(observable, oldValue, newValue) -> showBasketDetails(newValue));
 
-	}*/
+	}
 
 	public void setMainApp(MainApp mainApp) {
 		this.mainApp = mainApp;

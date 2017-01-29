@@ -170,7 +170,7 @@ public class MainApp extends Application {
 
 	public File getItemFilePath() {
 		Preferences prefs = Preferences.userNodeForPackage(MainApp.class);
-		String filePath = prefs.get("Filepath", null);
+		String filePath = prefs.get("filePath", null);
 		if (filePath != null) {
 			return new File(filePath);
 		} else {
